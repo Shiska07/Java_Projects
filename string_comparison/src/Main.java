@@ -21,5 +21,8 @@ public class Main{
         System.out.println(str4);
 
         System.out.println(str3 == str4); // 1 if they match; 0 if they don't
+
+        // Therefore, always use the .equals() method for safety
+        System.out.println(str3.equals(str4));
     }
 }
